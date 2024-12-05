@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="page 1.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#cart">Cart (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to EYE CANDY!</h1>
+            <p>The best progressive, Progressive lenses !</p>
+        </div>
+    </section>
+
+    <!-- Product Catalog -->
+    <section id="shop">
+        <h2>Contact lenses</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/8b/65/54/8b65541f39c644d3a4a565388b4b23a7.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+            <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/82/e8/30/82e830762e899bfd7431717f7fb70eb6.jpg" height="60%" alt="Product 2">
+                <h3>Product 2</h3>
+                
+                
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/25/3f/62/253f62911300e5b194e4b573b8c070f9.jpg" height="60%" alt="Product 3">
+                <h3>Product 3</h3>
+                
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/89/af/4e/89af4e46044808c6466c405365b08024.jpg" height="60%" alt="Product 2">
+                <h3>Product 4</h3>
+                <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+
+                <div class="product">
+                    <img src="https://i.pinimg.com/736x/07/ac/4c/07ac4ca4f9eec5581bc2996e827d3a12.jpg" height="60%" alt="Product 2">
+                    <h3>Product 5</h3>
+                    <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product">
+                        <img src="https://i.pinimg.com/736x/79/ff/a4/79ffa4ddf432e52da7d773f67e526b4d.jpg" height="60%" alt="Product 2">
+                        <h3>Product 6</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                        </div>
+
+                        
+
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shopping Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Cart Section (hidden by default) -->
+    <section id="cart" style="display: none;">
+        <h2>Your Cart</h2>
+        <p>No items in your cart yet.</p>
+        <button>Proceed to Checkout</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

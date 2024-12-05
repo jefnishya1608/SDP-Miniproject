@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop for premium specs and sunglasses. Find the best eyewear for your style and comfort.">
+    <title>EYE CANDY</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        background-image: url("https://t4.ftcdn.net/jpg/03/85/88/41/240_F_385884179_8mA6rX2pc4dmhoNF7zgPqI4ctcVk2um0.jpg");
+        }
+        title{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        header {
+            background-image:linear-gradient(135deg,yellow,black,green);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color:black;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+       
+        
+        .product-card {
+            background-color:whitesmoke;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            margin: 10px;
+           
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+    
+        }
+        .product-card h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+        .product-card p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .btn-buy {
+            background-color:black;
+            color:white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn-buy:hover {
+            background-color: black;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>EYE CANDY</h1>
+        <p>Your perfect eyewear awaits!</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content" id="products">
+        <div class="product-card">
+            <img src="https://cdn.shopify.com/s/files/1/0533/0478/7117/files/Waterhaul-polarised-recycled-sunglasses-1.png?v=1689004332" height="250px" width="250px" alt="Sunglasses 1">
+            <h3>Polarized Sunglasses</h3>
+            <p>Rs.999 only</p>
+            <a href="page 1 source.html"
+            <button class="btn-buy">Buy Now</button>
+        </a>
+            </div>
+        </div><center>
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/bd/ad/75/bdad75f7fe321e2460e4a5aa6aaacc55.jpg" height="250px" width="250px" alt="Specs 1">
+            <h3>Classic Prescription Glasses</h3>
+            <p>Rs.1699 only</p>
+            <a href="page 2 source.html"
+            <button class="btn-buy">Buy Now</button>
+        </a>
+        </div>
+        <div class="product-card">
+            <img src="https://specscart.co.uk/media/wysiwyg/blog-webp/What_is_the_ideal_ultraviolet_protection_for_sunglasses.webp"  height="250px" width="250px" alt="Sunglasses 2">
+            <h3>UV Protection Sunglasses</h3>
+            <p>Rs.1999.99 only</p>
+            <a href="page 3 source.html"
+            <button class="btn-buy">Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="https://www.dmoptical.com/wp-content/uploads/2022/05/img-modern-eyeglass-selection-frames.jpg"  height="250px" width="250px" alt="Specs 2">
+            <h3>Modern Eyewear</h3>
+            <p>Rs.599.99</p><a href="page 4 source.html"
+            <button class="btn-buy">Buy Now</button>
+        </a></div>
+        <div class="product-card">
+            <img src="https://www.clearly.ca/thelook/wp-content/uploads/2015/03/contact-lenses-blue-eyes-lens-insert-1050x675.jpg"  height="250px" width="250px"  alt="lens">
+            <h3>Contact Lens</h3>
+            <p>Rs.1499.99</p><a href="page 5 source.html"
+            <button class="btn-buy">Buy Now</button>
+        </a>
+        </div>
+        </center>
+    </div>
+
+
+    
+
+    <!-- About Section -->
+    <section id="about" style="padding: 50px 20px; text-align: center;">
+        <h2>About Us</h2>
+        <p>Welcome to Specs & Sunglasses Shop! We offer a wide range of high-quality eyewear, including prescription glasses, trendy sunglasses, and protective lenses for every need. Our goal is to provide you with stylish and comfortable eyewear that matches your unique personality.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 50px 20px; text-align: center;">
+        <h2>Contact Us</h2>
+        <p>Have questions? We'd love to hear from you!</p>
+        <p>Email: <a href="mailto:contact@eyecandy.com">contact@eyecandy.com</a></p>
+        <p>Phone: +1 800 123 4567</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Specs & Sunglasses Shop. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
